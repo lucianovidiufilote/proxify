@@ -1,11 +1,11 @@
 ### Symfony 5 application capable of consuming queued jobs stored in a database table, using parallel workers.
-#### Using 
+#### Using:
 - Symfony Messenger Component, 
 - Custom Transport Bus 
 - [Supervisor](http://supervisord.org/)
 
 
-##### How to test:
+#### How to test:
 To generate 100 valid URLS:
     http://proxify.local/generate?url=http://google.com&times=100
  
