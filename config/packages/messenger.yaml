@@ -1,0 +1,6 @@
+framework:
+    messenger:
+        transports:
+            job_transport: 'job_transport://'
+        routing:
+            App\Entity\Job: job_transport
